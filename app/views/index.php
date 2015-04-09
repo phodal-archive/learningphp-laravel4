@@ -34,9 +34,9 @@
 <script type="text/javascript" src="<?= url('js/jquery-2.0.3.min.js
 ')?>"></script>
 <script type="text/javascript" src="<?= url('js/jquery.mobile-1.4.0.min.js')?>"></script>
-<script type="text/javascript" src="<?= url('js/highcharts.js')?>"></script>
+<script type="text/javascript" src="http://code.highcharts.com/highcharts.js"></script>
 <script type="text/javascript" src="<?= url('js/log.js') ?>"></script>
-<script type="text/javascript" src="<?= url('js/exporting.js') ?>"></script>
+<script type="text/javascript" src="http://code.highcharts.com/modules/exporting.js"></script>
 <script type="text/javascript" src="<?= url('js/app.js')?>"></script>
 
 </body>

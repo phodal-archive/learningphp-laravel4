@@ -90,7 +90,7 @@ function showTemper() {
         type: 'GET',
         dataType: 'json',
         async: true,
-        timeout: 1000,
+        timeout: 2000,
         error: function() {},
         success: function(sdata) {
             $('.temperStatus').empty();
@@ -101,7 +101,7 @@ function showTemper() {
 
 $(document).ready(function() {
     setInterval("drawTemp();", 5000);
-    setInterval("showTemper();", 800);
+    setInterval("showTemper();", 2000);
     drawTemp();
     showTemper();
 });
